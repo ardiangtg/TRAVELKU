@@ -1,4 +1,4 @@
-package com.example.apelekasitravel;
+package com.example.aplikasitravel;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -40,7 +40,7 @@ public class RegisterAct extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent gotonextregister = new Intent(RegisterAct.this, RegisterTwoAct.class);
+                Intent gotonextregister = new Intent(com.example.travelku.RegisterAct.this, com.example.travelku.RegisterTwoAct.class);
                 startActivity(gotonextregister);
             }
         });
@@ -74,7 +74,7 @@ public class RegisterAct extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent gotologin = new Intent(RegisterAct.this, LoginAct.class);
+                Intent gotologin = new Intent(com.example.travelku.RegisterAct.this, com.example.travelku.LoginAct.class);
                 startActivity(gotologin);
             }
         });

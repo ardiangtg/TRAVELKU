@@ -1,8 +1,8 @@
-package com.example.apelekasitravel;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.aplikasitravel;
 
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -20,7 +20,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="381dp"
                 android:layout_height="156dp"
-                app:srcCompat="@android:drawable/arrow_down_float"
+                app:srcCompat="@drawable/logo"
                 tools:src="@tools:sample/avatars" />
 
             <TextView

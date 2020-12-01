@@ -1,14 +1,14 @@
-package com.example.apelekasitravel;
+package com.example.travelkudian;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class LoginAct extends AppCompatActivity {
+public class HomeAct extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_home);
     }
 }
